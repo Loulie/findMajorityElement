@@ -1,4 +1,4 @@
-data = ["red","red","blue","red","blue"]
+data = ["red","yellow","yellow","yellow","red"]
 
 def freq(arr, item):
     counter = 0
@@ -20,10 +20,8 @@ def findMajorityElementDivAndConq(arr):
     if(len(arr) == 1):
         return arr[0]
     else:
-
         leftArr = []
         rightArr = []
-
 
         for i in range(0,len(arr)):
             if (i < len(arr) / 2):
